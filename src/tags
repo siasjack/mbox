@@ -1,0 +1,210 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+DEBUG_DBG	tools.c	/^	DEBUG_DBG,$/;"	e	enum:__anon1	file:
+DEBUG_ERR	tools.c	/^	DEBUG_ERR,$/;"	e	enum:__anon1	file:
+DEBUG_INFO	tools.c	/^	DEBUG_INFO,$/;"	e	enum:__anon1	file:
+DEBUG_MAX	tools.c	/^	DEBUG_MAX$/;"	e	enum:__anon1	file:
+DEBUG_STATE	tools.c	/^	DEBUG_STATE,$/;"	e	enum:__anon1	file:
+DEBUG_WARN	tools.c	/^	DEBUG_WARN,$/;"	e	enum:__anon1	file:
+DHCP_CONFIG_FILE	function.c	13;"	d	file:
+ERRCODE	function.h	/^enum ERRCODE{$/;"	g
+ERR_ALREADY_BIND	function.h	/^	ERR_ALREADY_BIND,$/;"	e	enum:ERRCODE
+ERR_DUPLICATE	function.h	/^	ERR_DUPLICATE,$/;"	e	enum:ERRCODE
+ERR_IN_PARA	function.h	/^	ERR_IN_PARA,$/;"	e	enum:ERRCODE
+ERR_IO	function.h	/^	ERR_IO,$/;"	e	enum:ERRCODE
+ERR_IOCTRL	function.h	/^	ERR_IOCTRL,$/;"	e	enum:ERRCODE
+ERR_IPADDR	function.h	/^	ERR_IPADDR,$/;"	e	enum:ERRCODE
+ERR_LAST	function.h	/^	ERR_LAST$/;"	e	enum:ERRCODE
+ERR_MEM	function.h	/^	ERR_MEM,$/;"	e	enum:ERRCODE
+ERR_NETMASK	function.h	/^	ERR_NETMASK,$/;"	e	enum:ERRCODE
+ERR_NOTFOUND	function.h	/^	ERR_NOTFOUND,$/;"	e	enum:ERRCODE
+ERR_OPEN_FILE	function.h	/^	ERR_OPEN_FILE,$/;"	e	enum:ERRCODE
+ERR_PARSE	function.h	/^	ERR_PARSE,$/;"	e	enum:ERRCODE
+ERR_UNKNOWN	function.h	/^	ERR_UNKNOWN,$/;"	e	enum:ERRCODE
+ERR_WRITE_FILE	function.h	/^	ERR_WRITE_FILE,$/;"	e	enum:ERRCODE
+Endian	tools.c	/^}Endian;$/;"	v	typeref:union:__anon2
+GetValByKey	tools.c	/^int GetValByKey(json_object * jobj, const  char  *sname,enum json_type type_me,void *rev)$/;"	f
+MQTT_CONFIG_FILE	function.c	10;"	d	file:
+MY_VERSION	function.h	4;"	d
+NETWORK_CONFIG_FILE	function.c	12;"	d	file:
+NEXT_PING_TIME	getlanhost.c	25;"	d	file:
+PACKET_SIZE	getlanhost.c	24;"	d	file:
+PACKET_SIZE	ping.c	19;"	d	file:
+QOS_ONCE	mqttmain.c	16;"	d	file:
+QOS_ONCE_ATLEAST	mqttmain.c	17;"	d	file:
+QOS_ONCE_MUST	mqttmain.c	18;"	d	file:
+SUCCESS	function.h	/^	SUCCESS=0,$/;"	e	enum:ERRCODE
+WIFI_CONFIG_FILE	function.c	11;"	d	file:
+WIFI_CONFIG_FILE	test.c	101;"	d	file:
+__FUNCTION__H_	function.h	2;"	d
+__GETLANHOST__	getlanhost.h	2;"	d
+__TOOLS_H__	tools.h	2;"	d
+add_lanhost	getlanhost.c	/^int add_lanhost(struct lanhost *new)$/;"	f
+all	function.h	/^    int all; \/\/KB$/;"	m	struct:sysinfo
+band	function.h	/^	int band;\/\/24=2.4G,5=5G$/;"	m	struct:wifi_info
+band	test.c	/^	int band;\/\/24=2.4G,5=5G$/;"	m	struct:wifi_info	file:
+bind	function.h	/^	int bind;\/\/0:unbind,1:bind$/;"	m	struct:bind_info
+bind_info	function.h	/^struct bind_info{$/;"	s
+bindtime	function.h	/^	char bindtime[20];$/;"	m	struct:bind_info
+cal_chksum	getlanhost.c	/^unsigned short cal_chksum(unsigned short *addr,int len)$/;"	f
+cal_chksum	ping.c	/^unsigned short cal_chksum(unsigned short *addr,int len)$/;"	f
+ch	function.h	/^	int ch;$/;"	m	struct:wifi_info
+ch	test.c	/^	int ch;$/;"	m	struct:wifi_info	file:
+copy_mac2str	tools.c	/^void copy_mac2str(unsigned char *mac,char *str)$/;"	f
+cpu1	function.h	/^    char cpu1[8];  \/\/最近1分钟的平均负载$/;"	m	struct:sysinfo
+cpu15	function.h	/^    char cpu15[8];\/\/15分钟$/;"	m	struct:sysinfo
+cpu5	function.h	/^    char cpu5[8];\/\/5分钟$/;"	m	struct:sysinfo
+del_lanhost	getlanhost.c	/^int del_lanhost(struct lanhost *del)$/;"	f
+del_lanhost_by_stat	getlanhost.c	/^void del_lanhost_by_stat()$/;"	f
+dev_flow	tools.c	/^struct dev_flow{$/;"	s	file:
+dev_manufacture	function.h	/^    char dev_manufacture[32];\/\/厂商名字$/;"	m	struct:sysinfo
+device	function.h	/^	char device[16];$/;"	m	struct:wifi_info
+device	test.c	/^	char device[16];$/;"	m	struct:wifi_info	file:
+devname	getlanhost.h	/^	char devname[32];$/;"	m	struct:lanhost
+devname	mqttmain.c	12;"	d	file:
+devtype	function.h	/^    char devtype[32];\/\/型号$/;"	m	struct:sysinfo
+dhcp_disable	function.h	/^	int dhcp_disable;$/;"	m	struct:network_lan
+dhcp_end	function.h	/^	unsigned int dhcp_end;$/;"	m	struct:network_lan
+dhcp_start	function.h	/^	unsigned int dhcp_start;$/;"	m	struct:network_lan
+down_	tools.c	/^	long long int down_;$/;"	m	struct:dev_flow	file:
+eat_char	test.c	/^char *eat_char(char *org,char *dest,int len,char d)$/;"	f
+eat_char	tools.c	/^char *eat_char(char *org,char d)$/;"	f
+eat_char2	test.c	/^char *eat_char2(char *org,char d)$/;"	f
+eat_char_big	tools.c	/^char *eat_char_big(char *org,char *dest,int len,char d)$/;"	f
+eat_enter	tools.c	/^void eat_enter(char *str)$/;"	f
+eat_space	tools.c	/^char *eat_space(char *org)$/;"	f
+enable	function.h	/^	int enable;$/;"	m	struct:wifi_info
+enable	test.c	/^	int enable;$/;"	m	struct:wifi_info	file:
+encrypt	function.h	/^	char encrypt[16];$/;"	m	struct:wifi_info
+encryt	test.c	/^	char encryt[16];$/;"	m	struct:wifi_info	file:
+errmsg	function.c	/^char *errmsg[128]={$/;"	v
+flow_down	tools.c	/^	char flow_down[32];$/;"	m	struct:dev_flow	file:
+flow_up	tools.c	/^	char flow_up[32];$/;"	m	struct:dev_flow	file:
+free	function.h	/^    int free;$/;"	m	struct:sysinfo
+g_bind	function.c	/^struct bind_info g_bind;$/;"	v	typeref:struct:bind_info
+g_lanhost	getlanhost.c	/^struct lanhost *g_lanhost =NULL;$/;"	v	typeref:struct:lanhost
+g_myrtopic	mqttmain.c	/^static char g_myrtopic[64]={0};$/;"	v	file:
+g_mytopic	mqttmain.c	/^static char g_mytopic[64]={0};$/;"	v	file:
+g_network	function.c	/^struct network_info g_network;$/;"	v	typeref:struct:network_info
+g_sys	function.c	/^struct sysinfo g_sys;$/;"	v	typeref:struct:sysinfo
+g_wifi24	function.c	/^struct wifi_info g_wifi24;$/;"	v	typeref:struct:wifi_info
+g_wifi24	test.c	/^struct wifi_info g_wifi24;$/;"	v	typeref:struct:wifi_info
+g_wifi5	function.c	/^struct wifi_info g_wifi5;$/;"	v	typeref:struct:wifi_info
+g_wifi5	test.c	/^struct wifi_info g_wifi5;$/;"	v	typeref:struct:wifi_info
+getNthValueSafe	test.c	/^int getNthValueSafe(int index, char *value, char delimit, char *result, int len) $/;"	f
+getNthValueSafe	tools.c	/^int getNthValueSafe(int index, char *value, char delimit, char *result, int len) $/;"	f
+get_addr	tools.c	/^static int get_addr(char *ifname,unsigned char *addr, int flag)$/;"	f	file:
+get_ap_mac	tools.c	/^void get_ap_mac(char *mac)$/;"	f
+get_bindinfo	function.c	/^int get_bindinfo(char *res,int len)$/;"	f
+get_cpuuse	test.c	/^int get_cpuuse(char *cpu_use1,char* cpu_use5,char* cpu_use15)$/;"	f
+get_cpuuse	tools.c	/^int get_cpuuse(char *cpu_use1,char * cpu_use5,char * cpu_use15)$/;"	f
+get_current_time	tools.c	/^int get_current_time(char *res)$/;"	f
+get_dev_flow	tools.c	/^int get_dev_flow(char *dev_name,struct dev_flow *flow)$/;"	f
+get_dev_mac	tools.c	/^int get_dev_mac(const char* szDevName ,char *mac)$/;"	f
+get_devinfo	function.c	/^int get_devinfo( struct sysinfo *ptr)$/;"	f
+get_dns	tools.c	/^int get_dns(char *dns1)$/;"	f
+get_ext_iface	tools.c	/^int get_ext_iface(char *device)$/;"	f
+get_gateway	tools.c	/^int get_gateway(char *ip)$/;"	f
+get_ip	tools.c	/^int get_ip(char *ifname,unsigned char ip[16])$/;"	f
+get_lanhost	getlanhost.c	/^int get_lanhost(char *res,int len)$/;"	f
+get_mac	tools.c	/^int get_mac(char *ifname,unsigned char addr[6])$/;"	f
+get_meminfo	test.c	/^int get_meminfo(int *all,int *free)$/;"	f
+get_meminfo	tools.c	/^int get_meminfo(int *all,int *free)$/;"	f
+get_netmask	tools.c	/^int get_netmask(char *ifname,unsigned char ip[16])$/;"	f
+get_network_info	function.c	/^int get_network_info(char *res,int len)$/;"	f
+get_opversion	tools.c	/^int get_opversion(char *my_version,int len)$/;"	f
+get_sys_uptime	tools.c	/^int get_sys_uptime(char *up)$/;"	f
+get_sysinfo	function.c	/^int get_sysinfo(char *res,int len)$/;"	f
+get_wifi_flow	tools.c	/^int get_wifi_flow(struct dev_flow *flow)$/;"	f
+get_wifiinfo	function.c	/^int get_wifiinfo(char *res,int len)$/;"	f
+get_wifiinfo	test.c	/^int get_wifiinfo(char *res,int len)$/;"	f
+hwmode	function.h	/^	char hwmode[12];$/;"	m	struct:wifi_info
+hwmode	test.c	/^	char hwmode[12];$/;"	m	struct:wifi_info	file:
+iface_name	function.h	/^	char iface_name[16];\/\/保存匿名的iface名称$/;"	m	struct:wifi_info
+init_para	mqttmain.c	/^void init_para()$/;"	f
+ip	getlanhost.h	/^	char ip[16];$/;"	m	struct:lanhost
+isBigEndian	tools.c	/^int isBigEndian() {$/;"	f
+is_valid_ip	tools.c	/^int is_valid_ip(unsigned char ipaddr[16])$/;"	f
+is_valid_netmask	tools.c	/^int is_valid_netmask(unsigned char netmask[16])$/;"	f
+jdebug	tools.c	25;"	d	file:
+lan	function.h	/^	struct network_lan lan;$/;"	m	struct:network_info	typeref:struct:network_info::network_lan
+lan_ip	function.h	/^	char lan_ip[16];$/;"	m	struct:network_lan
+lan_nm	function.h	/^	char lan_nm[16];$/;"	m	struct:network_lan
+lanhost	getlanhost.h	/^struct lanhost{$/;"	s
+last_down_	tools.c	/^	long long int last_down_;$/;"	m	struct:dev_flow	file:
+last_mid_sent	mqttmain.c	/^static int last_mid_sent = -1;$/;"	v	file:
+last_up_	tools.c	/^	long long int last_up_;$/;"	m	struct:dev_flow	file:
+livetest	getlanhost.c	/^int livetest(char* ip) {$/;"	f
+livetest	ping.c	/^int livetest(char* ip) {$/;"	f
+mac	function.h	/^    char mac[20];$/;"	m	struct:sysinfo
+mac	getlanhost.h	/^	char mac[20];$/;"	m	struct:lanhost
+main	mqttmain.c	/^int main(int argc, char *argv[])$/;"	f
+main	ping.c	/^int main(int argc, char* argv[]) {$/;"	f
+main	test.c	/^int main()$/;"	f
+mid_device	mqttmain.c	/^int mid_device=0;$/;"	v
+mode	function.h	/^	char mode[8];$/;"	m	struct:wifi_info
+mode	test.c	/^	char mode[8];$/;"	m	struct:wifi_info	file:
+my_connect_callback	mqttmain.c	/^void my_connect_callback(struct mosquitto *mosq, void *userdata, int result)$/;"	f
+my_disconnect_callback	mqttmain.c	/^void my_disconnect_callback(struct mosquitto *mosq, void *obj, int rc)$/;"	f
+my_log_callback	mqttmain.c	/^void my_log_callback(struct mosquitto *mosq, void *userdata, int level, const char *str)$/;"	f
+my_message_callback	mqttmain.c	/^void my_message_callback(struct mosquitto *mosq, void *userdata, const struct mosquitto_message *message)$/;"	f
+my_publish_callback	mqttmain.c	/^void my_publish_callback(struct mosquitto *mosq, void *obj, int mid)$/;"	f
+my_subscribe_callback	mqttmain.c	/^void my_subscribe_callback(struct mosquitto *mosq, void *userdata, int mid, int qos_count, const int *granted_qos)$/;"	f
+my_version	function.h	/^	char my_version[16];$/;"	m	struct:sysinfo
+network_info	function.h	/^struct network_info{$/;"	s
+network_lan	function.h	/^struct network_lan{$/;"	s
+network_wan	function.h	/^struct network_wan{$/;"	s
+next	getlanhost.h	/^	struct lanhost *next;$/;"	m	struct:lanhost	typeref:struct:lanhost::lanhost
+number	tools.c	/^	int number;$/;"	m	union:__anon2	file:
+offline	getlanhost.h	/^	char offline[32];$/;"	m	struct:lanhost
+online	getlanhost.h	/^	char online[32];$/;"	m	struct:lanhost
+online_t	getlanhost.h	/^	time_t online_t;$/;"	m	struct:lanhost
+op_version	function.h	/^	char op_version[16];$/;"	m	struct:sysinfo
+passwd	function.h	/^	char passwd[32];$/;"	m	struct:wifi_info
+passwd	test.c	/^	char passwd[32];$/;"	m	struct:wifi_info	file:
+reset_stat	getlanhost.c	/^void reset_stat()$/;"	f
+rwlock	mqttmain.c	/^pthread_rwlock_t rwlock;    \/\/声明读写锁$/;"	v
+s	tools.c	/^	char s;$/;"	m	union:__anon2	file:
+set_addr	tools.c	/^static int set_addr(char *ifname,unsigned char ip[16], int flag)$/;"	f	file:
+set_bindinfo	function.c	/^int set_bindinfo(char *telnum)$/;"	f
+set_bindinfo	test.c	/^int set_bindinfo(char *telnum)$/;"	f
+set_gateway	tools.c	/^int set_gateway(unsigned char ip[16])$/;"	f
+set_ip	tools.c	/^int set_ip(char *ifname,unsigned char ip[16])$/;"	f
+set_ip_netmask	tools.c	/^int set_ip_netmask(char *ifname,unsigned char ip[16])$/;"	f
+set_lan	function.c	/^int set_lan(struct network_lan *info)$/;"	f
+set_lan_cmd	function.c	/^int set_lan_cmd(char *json)$/;"	f
+set_wan	function.c	/^static int set_wan(struct network_wan *info)$/;"	f	file:
+set_wan_cmd	function.c	/^int set_wan_cmd(char *json)$/;"	f
+set_wifi	function.c	/^int set_wifi(struct wifi_info *info)$/;"	f
+set_wifi_cmd	function.c	/^int set_wifi_cmd(char *json)$/;"	f
+ssid	function.h	/^	char ssid[64];$/;"	m	struct:wifi_info
+ssid	test.c	/^	char ssid[64];$/;"	m	struct:wifi_info	file:
+stat	getlanhost.h	/^	int stat; \/\/0:find in arp,1:not find,need del$/;"	m	struct:lanhost
+sysinfo	function.h	/^struct sysinfo{$/;"	s
+telnum	function.h	/^	char telnum[16];$/;"	m	struct:bind_info
+test_arr	test.c	/^void test_arr()$/;"	f
+thread_update_lanhost	getlanhost.c	/^void* thread_update_lanhost(void *arg)$/;"	f
+time_to_str	tools.c	/^int time_to_str(time_t t,char *res,int res_len)$/;"	f
+txpower	function.h	/^	char txpower[4];$/;"	m	struct:wifi_info
+type	getlanhost.h	/^	int type;\/\/0:wire,1:wireless$/;"	m	struct:lanhost
+up_	tools.c	/^	long long int up_;$/;"	m	struct:dev_flow	file:
+update_devname_by_mac	getlanhost.c	/^void update_devname_by_mac(char *mac,char *devname)$/;"	f
+uptime	function.h	/^    int uptime;$/;"	m	struct:sysinfo
+wan1	function.h	/^	struct network_wan wan1;$/;"	m	struct:network_info	typeref:struct:network_info::network_wan
+wan2	function.h	/^	struct network_wan wan2;$/;"	m	struct:network_info	typeref:struct:network_info::network_wan
+wan_conn_statu	function.h	/^    int wan_conn_statu;\/\/网络连接状态$/;"	m	struct:network_wan
+wan_dns	function.h	/^    char wan_dns[32]; \/\/ 2 at most$/;"	m	struct:network_wan
+wan_gw	function.h	/^    char wan_gw[16];$/;"	m	struct:network_wan
+wan_ip	function.h	/^    char wan_ip[16];$/;"	m	struct:network_wan
+wan_line_statu	function.h	/^    int wan_line_statu;\/\/网线连接状态$/;"	m	struct:network_wan
+wan_nm	function.h	/^    char wan_nm[16];$/;"	m	struct:network_wan
+wan_pppoe_pwd	function.h	/^    char wan_pppoe_pwd[32];$/;"	m	struct:network_wan
+wan_pppoe_user	function.h	/^    char wan_pppoe_user[32];$/;"	m	struct:network_wan
+wan_type	function.h	/^	char wan_type[8];\/\/0,1,2$/;"	m	struct:network_wan
+wifi_info	function.h	/^struct wifi_info{$/;"	s
+wifi_info	test.c	/^struct wifi_info{$/;"	s	file:
+write2file	tools.c	/^int write2file(const char*filename,char *data,int len)$/;"	f

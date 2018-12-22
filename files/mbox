@@ -1,0 +1,6 @@
+config conf 'server'
+        option host 'localhost'
+        option port '1883'
+        option ssl '0'
+
+config bind 'bind'

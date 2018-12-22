@@ -1,0 +1,2 @@
+all:    
+	gcc -o mqtttest -D VER=\"V120\" -g mqttmain.c md5.c tools.c function.c getlanhost.c -l mosquitto -l json-c -luci -lpthread 
