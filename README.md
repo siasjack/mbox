@@ -14,4 +14,5 @@
 * 升级固件
 * 升级自身程序
 
-
+** I am jack.Chen 18516268044 **
+** jk110333@126.com  [博客](https://www.openwrtdl.com) ** 
